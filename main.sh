@@ -1,5 +1,7 @@
 #!/bin/bash
 
+source "/etc/profile.d/setvar.sh"
+
 generate_post_data()
 {
   public_ip="$(curl --silent ifconfig.co)"
